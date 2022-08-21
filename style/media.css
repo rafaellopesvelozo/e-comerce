@@ -235,7 +235,8 @@
         
     }
     .produtos-Cart-active{
-        right: 22%;        
+        right: 2.5%;
+        width: 95%;        
     }
    
 }
@@ -246,8 +247,10 @@
         
     }
     .produtos-Cart-active{
-        right: 16%;        
+        right: 2.5%;
+        width: 95%;        
     }
+   
     
  }
 @media screen and (max-width: 380px ){
@@ -256,14 +259,17 @@
         right: 20%;  
     }
     .produtos-Cart-active{
-        right: 10%;        
+        right: 2.5%;
+        width: 95%;        
     }
     
  }
 @media screen and (max-width: 364px ){
     .produtos-Cart-active{
-        right: 8%;        
+        right: 2.5%;
+        width: 95%;        
     }
+   
     
  }
 @media screen and (max-width: 330px ){
@@ -272,8 +278,10 @@
         right: 21%;  
     }
     .produtos-Cart-active{
-        right: 4%;        
+        right: 2.5%;
+        width: 95%;        
     }
+   
     
  }
 @media screen and (max-width: 300px ){
@@ -287,8 +295,9 @@
     right: 24%;
    }
    .produtos-Cart-active{
-    right: 1.2%;        
-}
+    right: 2.5%;
+    width: 95%;        
+    }
 }
 
 
