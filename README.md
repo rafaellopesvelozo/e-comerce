@@ -1,7 +1,7 @@
  
 <p align="center">👋 Olá, sou o Rafael.</p>  
 <p align="center">📚 Praticando HTML, CSS e JavaScript.</p>  
-<p align="center">📉 ecommerce product</p>  
+<p align="center">📉 e-commerce product</p>  
 
  <br>
  <br> 
