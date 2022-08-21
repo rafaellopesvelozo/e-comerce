@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--page .css-->
+    <link rel="stylesheet" href="style/page.css">
+
+    <!--page .header-->
+    <link rel="stylesheet" href="style/header.css">
+
+    <!--Menu Sanduiche-->
+    <link rel="stylesheet" href="style/MenuSanduiche.css">
+
+    <!--produtos-->
+    <link rel="stylesheet" href="style/produtos.css">
+
+    <!--info produtos-->
+    <link rel="stylesheet" href="style/info-produtos.css">
+
+    <!--produtos cart-->
+    <link rel="stylesheet" href="style/produtos-cart.css">
+
+    <!--crrossel Modal mibile-->
+    <link rel="stylesheet" href="style/carrossel.css" />
+
+    <!--@media-->
+    <link rel="stylesheet" href="style/media.css">
+
+    <title>E-comerce</title>
+</head>
+
+<body>
+    <main>
+        <!--HEADER-->
+        <header>
+            <div class="logo-links">
+                <!--ICON TOLLBAR-->
+                <div class="toolbar">
+                    <img src="images/icon-menu.svg" alt="">
+                </div>
+                <!--ICON TOLLBAR END-->
+
+                <!--LOGOTIPO-->
+                <div class="logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <!--LOGOTIPO END-->
+
+                <!--MENU-->
+                <div class="navbar">
+                    <ul>
+                        <li>Collections</li>
+                        <li>Men</li>
+                        <li>Woman</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <!--MENU END-->
+
+                <!--MENU MOBILE-->
+                <div class="menu-mobile">
+                    <ul>
+                        <img class="close-sanduiche" src="images/icon-close.svg" alt="" class="close-sanduiche">
+                        <li>Collections</li>
+                        <li>Men</li>
+                        <li>Woman</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <!--MENU MOBILE END-->
+            </div>
+
+            <!--IMG PROFILE E CARRINHO DE COMPRA-->
+            <div class="profile">
+                <div class="carrinho-de-compras-header">
+                    <img src="images/icon-cart.svg" alt="cart" id="carro-perfil-compra">
+                </div>
+                <div class="IdDeCompras">
+                    <p>0</p>
+                </div>
+                <div class="avatar-img">
+                    <img src="images/image-avatar.png" alt="avatar">
+                </div>
+
+            </div>
+            <!--IMG PROFILE E CARRINHO DE COMPRA END -->
+
+
+            <div class="produtos-Cart">
+
+                <!--CARRINHO DE COMPRAVAZIO EMPTY -->
+                <div class="cart-p">
+                    <p>Cart</p>
+                </div>
+                <hr>
+                <div class="cart-compras">
+                    <p id="cart-is-empty">Your cart is empty</p>
+                    <!--CARRINHO DE COMPRAVAZIO EMPTY END  -->
+
+                    <!--CARRINHO DE COMPRAVAZIO COM INTENS -->
+                    <div class="produtos-no-carrinho">
+                        <div class="produtos-comprado">
+                            <div class="cart-compras-img">
+                                <img src="images/image-product-1-thumbnail.jpg" alt="">
+                            </div>
+                            <div class="info-cart-compras">
+                                <p>Fall Limited Edition Sneakers</p>
+                                <p>
+                                    <span id="compras-preco">$125.00</span>
+                                    <span id='x'> x </span>
+                                    <span id='qdt-compras'>0</span>
+                                    <span id="total-preço-compras">$00.00</span>
+                            </div>
+                            <div class="deletar-compras">
+                                <img src="images/icon-delete.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="btn-compras">
+                            <button type="submit">Checkout</button>
+                        </div>
+                    </div>
+                    <!--CARRINHO DE COMPRAVAZIO COM INTENS END -->
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+
+        <hr>
+        <!--ARTICLE-->
+        <article>
+            <!--SECTION-->
+            <section class="produtos">
+
+                <div class="img-produtos">
+
+                    <div class="carousel">
+                        <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+                            <img src="images/image-product-1.jpg" />
+                        </div>
+
+                        <div data-js="carousel__item" class="carousel__item">
+                            <img src="images/image-product-2.jpg" />
+                        </div>
+
+                        <div data-js="carousel__item" class="carousel__item">
+                            <img src="images/image-product-3.jpg" />
+                        </div>
+
+                        <div data-js="carousel__item" class="carousel__item">
+                            <img src="images/image-product-4.jpg" />
+                        </div>
+
+                        <div class="carousel__actions">
+                            <button data-js="carousel__button--prev" aria-label="Slide anterior">
+                                <img src="images/icon-previous.svg" alt="">
+                            </button>
+
+                            <button data-js="carousel__button--next" aria-label="Próximo slide">
+                                <img src="images/icon-next.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="img-thumb">
+                        <div class="thumbnail">
+                            <img src="images/image-product-1-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images/image-product-2-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images/image-product-3-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images/image-product-4-thumbnail.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="info-produtos">
+                    <div class="Sneaker-company">
+                        <p>SNEAKER COMPANY</p>
+                    </div>
+                    <div class="fall-limite-sneakers">
+                        <h1>Fall Limited Edition Sneakers</h1>
+                    </div>
+                    <div class="info-sobre-produto">
+                        <p>
+                            These low-profile sneakers are your perfect casual wear companion. Featuring a
+                            durable rubber outer sole, they’ll withstand everything the weather can offer.
+                        </p>
+                    </div>
+
+                    <div class="price-product">
+                        <div class="price">
+                            <div class="value">
+                                <p>$00.00</p>
+                            </div>
+                            <div class="promotion">
+                                <p>50%</p>
+                            </div>
+                        </div>
+                        <div class="discount">
+                            <p>$250.00</p>
+                        </div>
+                    </div>
+                    <div class="addCart">
+                        <div class="add-remove">
+                            <div class="minus">
+                                <img src="images/icon-minus.svg" alt="">
+                            </div>
+                            <p id="qdtDeCompras">0</p>
+                            <div class="more">
+                                <img src="images/icon-plus.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="btnAdd">
+                            <button class="btn-submit" type="submit">
+                                <img src="images/icon-cart.svg" alt="">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--SECTION END-->
+        </article>
+        <!--ARTICLE END-->
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/carrossel.js"></script>
+</body>
+
+</html>

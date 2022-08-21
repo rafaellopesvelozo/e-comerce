@@ -1,0 +1,47 @@
+.produtos{
+    display: flex;  
+}
+
+.info-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 4.5rem;
+}
+
+.img-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 4rem 4rem 0 6rem;
+}
+
+.carousel img{
+    width: 100%;   
+}
+
+.thumbnail{
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+    height: 5rem;
+    border-radius: .5rem;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.img-thumb{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: .5rem;
+}

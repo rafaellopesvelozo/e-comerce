@@ -1,0 +1,98 @@
+
+.produtos-Cart{
+   display: none;
+   z-index: 1;
+}
+
+.produtos-Cart-active{
+    background-color:var(--White);
+    position: absolute;
+    display: block;
+    right: 12%;
+    top: 12.5%;
+    width: 18rem;
+    height: 12.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.produtos-Cart-active hr{
+    width: 100%;
+    outline: none;
+    border-color:  rgba(245, 245, 245, 0.295);
+}
+
+.cart-p{
+    padding: 1rem;
+    text-align: left;
+}
+.cart-p p{
+    color: var(--Black);
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.cart-compras {
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cart-is-empty{
+    display: none;
+}
+
+.produtos-comprado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.produtos-no-carrinho{
+    padding: 1.5rem;
+    display: flex;
+    height: 17rem;
+    flex-direction: column;
+}
+.cart-compras-img img{
+    width: 2rem;
+    border-radius: .2rem;
+}
+
+
+.info-cart-compras p:nth-child(1){
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--Dark-grayish-blue);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.info-cart-compras p:nth-child(2){
+    font-size: .8rem;
+    margin-top: .5rem;
+    text-align: left;
+}
+#compras-preco, #qdt-compras, #x{
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#total-preço-compras{
+    color: var(--Black);
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.deletar-compras img{
+    cursor: pointer;
+    width: .9rem;
+}
+.btn-compras button{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-weight: 600;
+    cursor: pointer;
+}
+

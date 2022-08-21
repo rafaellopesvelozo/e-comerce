@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 6% 0;
+}
+.logo{
+    display: flex;  
+}
+.logo img{
+    width: 8rem; 
+    padding-bottom: .5rem;
+}
+.toolbar {
+    display:none;
+}
+
+.logo-links{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar ul {
+    margin-left: 2rem;
+    display: flex;
+    list-style: none;
+    margin-top: 1.5rem;
+    gap: 1.5rem; 
+}
+
+.navbar ul li{
+    padding-bottom: 2rem;
+    border-bottom: 3px solid transparent;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1rem; 
+    cursor: pointer; 
+    font-weight: 600;
+    color: var(--Dark-grayish-blue);
+    transition: .2s;
+}
+
+.navbar ul li:hover{
+    padding-bottom: 2rem;
+    border-bottom: 3px solid var(--Orange);
+    color: var(--Black);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.avatar-img img{
+    width: 2.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+.avatar-img img:hover{
+    border-radius: 50%;
+    border: 3px solid var(--Orange);
+}
+
+.carrinho-de-compras-header img:hover{ 
+    filter: brightness(0%);
+    cursor: pointer;
+}
+
+hr{
+    margin: 0 auto;
+    width: 88%;
+    border-color:rgba(245, 245, 245, 0.295);
+}
+.IdDeCompras{
+   position: absolute;
+   top: 6%;
+   right: 20.8%;
+   border-radius: 8px;
+   background-color: var(--Orange);
+   padding: 1px 7px;
+}
+.IdDeCompras{
+    color: var(--White);
+    font-size: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.IdDeComprasNone{
+    display: none;
+}

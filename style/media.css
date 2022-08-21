@@ -1,0 +1,295 @@
+
+
+@media screen and (max-width: 1300px ){
+    .IdDeCompras{
+        right: 21%;
+        
+     }
+}
+@media screen and (max-width: 1150px ){
+  
+    .img-produtos{
+        padding: 2rem 2rem 0 5rem;
+    }
+    .info-produtos{
+        padding:2rem 2rem 0 2rem;
+    }
+    .IdDeCompras{
+        right: 21.8%;
+        
+     }
+}
+@media screen and (max-width: 1090px ){
+    main{
+        padding: 0;
+    }
+    .img-produtos{
+        padding: 2rem 2rem 0 5rem;
+    }
+    .info-produtos{
+        padding:2rem 2rem 0 2rem;
+    }
+    .IdDeCompras{
+        right: 11.9%;
+        
+    }
+    .produtos-Cart-active{
+        right: 2%;        
+    }
+}
+@media screen and (max-width: 890px ){
+    header{
+       
+        padding: 1.5rem 3% 0;
+    }
+    .img-produtos{
+        padding: 2rem 0rem 0 5rem;
+    }
+    .info-produtos{
+        padding:0rem 2rem 0 1rem;
+    }
+    .img-produto-1{
+        height: 300px;
+    }
+    .img-produtos{
+        padding: 2rem 2rem 0 2rem;
+    }
+    .IdDeCompras{
+        right: 10%;
+        
+     }
+}
+@media screen and (max-width: 780px ){
+    header{
+       
+        padding: 1.5rem 3% 0;
+    }
+    .navbar ul {
+        margin-left: 1rem;
+        gap: 1rem; 
+    }
+    
+    .navbar ul li{ 
+        font-size:.85rem;  
+    }
+    .info-produtos{
+        
+        padding: 0rem 2rem 0 1rem;
+    }
+    .img-produtos{
+        padding: 2rem 1rem 0 2rem;
+    }
+    .img-produto-1{
+        height: 270px;
+    }
+    .carousel__item img{
+        border-radius: .5rem;
+    }
+    .add-remove{
+        width: 6rem;
+    }
+    .IdDeCompras{
+        right: 11.6%;
+        
+    }
+    .carousel img{
+       height: 270px;   
+    }
+}
+@media screen and (max-width: 650px ){
+    .navbar ul li{ 
+        font-size:.6rem;  
+    }
+    .profile img:nth-child(2){
+        width: 2.8rem;
+       
+    }
+    .info-produtos{
+        padding: 0rem 2rem 0 .8rem;
+    }
+    .img-produtos{
+        padding: 2rem .8rem 0 2rem;
+    }
+    .add-remove{
+        width: 5.5rem;
+    }
+    .btnAdd button{
+        width: 100%;
+    }
+    .img-thumb{
+        justify-content: space-around;
+        
+    }
+    .thumbnail{
+        flex-wrap: wrap;
+        height: 5.5rem;
+    }
+    .IdDeCompras{
+        top: 5.5%;
+        right: 13%;  
+    }
+    .carousel__item {
+        height: 100%;
+
+    }
+    
+}
+@media screen and (max-width: 535px ){
+    main{
+        padding: 0;
+    }
+    .produtos{
+        display: flex;
+        flex-direction: column;
+    }
+    main hr{
+        display: none;
+    }
+    .img-produtos{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .info-produtos{
+        padding: 0 1rem 0 1rem;
+        width: 100%;
+    }
+    .carousel{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    
+    .img-thumb{
+        display: none;
+    }
+    .price-product{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;   
+    }
+    .addCart{
+        display: flex;
+        flex-direction:column;
+    }
+    .add-remove{
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: center; 
+        justify-content: space-evenly;
+    }
+    .minus img, .more img{
+        width: 1rem;
+    }
+    .btnAdd{
+        width: 100%; 
+    }
+    .btnAdd button{
+        height: 4rem;
+    }
+    .IdDeCompras{
+        top: 4%;
+        right: 16%;
+        
+    }
+    .IdDeCompras{
+        top: 5.5%;
+        right: 14.5%;
+        
+    }
+    
+}
+@media screen and (max-width: 520px ){
+    header{
+        padding: 1.5rem 4% 0;
+    }
+
+    /*sanduiche*/
+    .navbar{
+        display: none;
+    }
+    .toolbar {
+        margin: .5rem .5rem .5rem 0;
+        display: block;
+    }
+    .toolbar img {
+       height: 1rem;
+       
+    }
+    .Sneaker-company p{
+        margin-top: 1rem;
+       
+    }
+    .fall-limite-sneakers h1{
+        font-size: 1.5rem;
+    }
+    .btnAdd button{
+        margin-bottom: 2rem;
+    }  
+    .IdDeCompras{
+        top: 4%;
+        right: 16%;
+        
+    }
+    .produtos-Cart-active{
+        right: 22%;        
+    }
+   
+}
+@media screen and (max-width: 440px ){
+    .IdDeCompras{
+        top: 4%;
+        right: 18%;
+        
+    }
+    .produtos-Cart-active{
+        right: 16%;        
+    }
+    
+ }
+@media screen and (max-width: 380px ){
+    .IdDeCompras{
+        top: 4%;
+        right: 20%;  
+    }
+    .produtos-Cart-active{
+        right: 10%;        
+    }
+    
+ }
+@media screen and (max-width: 364px ){
+    .produtos-Cart-active{
+        right: 8%;        
+    }
+    
+ }
+@media screen and (max-width: 330px ){
+    .IdDeCompras{
+        top: 4%;
+        right: 21%;  
+    }
+    .produtos-Cart-active{
+        right: 4%;        
+    }
+    
+ }
+@media screen and (max-width: 300px ){
+   .logo img{
+    width: 6rem;
+    height: 1.7rem;
+    padding-bottom: 5px;
+   }
+   .IdDeCompras{
+    top: 4%;
+    right: 24%;
+   }
+   .produtos-Cart-active{
+    right: 1.2%;        
+}
+}
+
+
+

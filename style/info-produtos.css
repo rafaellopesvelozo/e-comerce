@@ -1,0 +1,120 @@
+.info-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 4rem 0 4rem;
+}
+.Sneaker-company p{
+    margin-top: 3rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--Orange);
+    font-weight: 600;
+    font-size: .8rem;
+}
+.fall-limite-sneakers h1{
+    margin-top: 1rem;
+    width: 95%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--Black);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.info-sobre-produto p{
+    margin-top: 2rem;
+    font-size: .9rem;
+    color: var(--Dark-grayish-blue);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.price-product {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.value{
+    color: var(--Blac);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.promotion p{
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    background-color: var(--Pale-orange);
+    color: var(--Orange);
+    font-weight: 600;
+    font-size: .8rem;
+}
+.discount p{
+    margin-top: .5rem;
+    color: var(--Grayish-blue);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.add-remove{
+    height: 3rem;
+    border-radius: .5rem;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    width: 30%;
+}
+.add-remove p{
+   display: flex;
+   align-items: center;
+   padding: 0 1rem;
+   font-family: 'Kumbh Sans', sans-serif;
+}
+.minus,.more{
+    padding: .2rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.qtdcompras{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Black);
+}
+.addCart{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.btnAdd{
+    display: flex;
+    width: 70%;
+}
+.btnAdd button{
+    cursor: pointer;
+    height: 3rem;
+    width: 80%;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    background-color: var(--Orange);
+    color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+}
+.btnAdd button img{
+    filter: invert(83%) 
+            sepia(100%) 
+            saturate(0%) 
+            hue-rotate(344deg) 
+            brightness(200%) 
+            contrast(200%);
+}
