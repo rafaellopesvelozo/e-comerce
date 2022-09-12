@@ -17,7 +17,7 @@ let ProdutosNoCarrinho = document.querySelector(".produtos-no-carrinho");
 let DeletarCompras = document.querySelector(".deletar-compras");
 let produtosComprado = document.querySelector(".produtos-comprado");
 
-//vaegação ul li
+//navegação ul li
 let navbar = document.querySelector(".navbar");
 
 //btn tollbar
@@ -93,7 +93,7 @@ function Deletarproduto() {
   let qtdMais = AddQuantidade--;
   let PrecoDoProdutoTotal = preco * AddQuantidade;
   let PrecoDoProdutoMenos = PrecoDoProdutoTotal - preco;
-  let qtdMenos = (qtdMais -= 1);
+  let qtdMenos = qtdMais -= 1;
 
   ProfileTotalcompras.innerHTML = "$" + PrecoDoProdutoMenos + ".00";
   QtdCompras.innerHTML = qtdMenos -= 1;
