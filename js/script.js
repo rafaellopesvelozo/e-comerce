@@ -59,7 +59,7 @@ function RemoverQtdAoCarrinho() {
   let qtdMais = AddQuantidade--;
   let PrecoDoProdutoTotal = preco * AddQuantidade;
   let PrecoDoProdutoMenos = PrecoDoProdutoTotal - preco;
-  let qtdMenos = (qtdMais -= 1);
+  let qtdMenos = qtdMais -= 1;
 
   QtdCompras.innerHTML = qtdMenos -= 1;
   ProfileCompras.innerHTML = qtdMenos--;
